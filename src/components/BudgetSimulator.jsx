@@ -40,7 +40,7 @@ export default function BudgetSimulator() {
 • Lokasi: ${locationType}
 • Estimasi Kru: ~${estimatedCrew} Personel
 Mohon saran jadwal master dan efisiensi anggarannya. Terima kasih!`;
-    return `https://wa.me/6281288880099?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/6281383604064?text=${encodeURIComponent(text)}`;
   };
 
   return (

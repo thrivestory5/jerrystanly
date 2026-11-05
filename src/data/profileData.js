@@ -474,7 +474,8 @@ export const PROFILE = {
     city: "Jakarta, Indonesia",
     email: "produksi@cakrawangsacinema.com",
     directEmail: "jerry.stanly@cakrawangsacinema.com",
-    whatsapp: "+62 812-8888-0099", // professional placeholder with quick-action
+    whatsapp: "+62 813-8360-4064",
+    whatsappClean: "6281383604064",
     collaborationNotice: "Terbuka untuk diskusi proyek Film Layar Lebar, Web/OTT Series (Netflix/Prime/Vidio), Drama Televisi, dan Kampanye Iklan Komersial berskala Nasional maupun Internasional."
   }
 };

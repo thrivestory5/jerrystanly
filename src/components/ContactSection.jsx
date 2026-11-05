@@ -28,7 +28,7 @@ No Telp/WA: ${formData.phone}
 Pesan/Kebutuhan:
 ${formData.message}`;
 
-    const waUrl = `https://wa.me/6281288880099?text=${encodeURIComponent(text)}`;
+    const waUrl = `https://wa.me/6281383604064?text=${encodeURIComponent(text)}`;
     window.open(waUrl, '_blank');
     setIsSubmitted(true);
   };
@@ -88,7 +88,7 @@ ${formData.message}`;
               {/* Direct Channels */}
               <div className="space-y-4 text-xs font-mono">
                 <a
-                  href="https://wa.me/6281288880099"
+                  href="https://wa.me/6281383604064"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={playTactileClick}
@@ -99,7 +99,7 @@ ${formData.message}`;
                   </div>
                   <div>
                     <span className="text-[10px] text-gray-500 uppercase block">WhatsApp Konsultasi Cepat</span>
-                    <span className="text-white font-semibold group-hover:text-gold-light">+62 812-8888-0099</span>
+                    <span className="text-white font-semibold group-hover:text-gold-light">+62 813-8360-4064</span>
                   </div>
                 </a>
 

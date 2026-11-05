@@ -10,6 +10,7 @@ import BudgetSimulator from './components/BudgetSimulator';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import OriginalCardModal from './components/OriginalCardModal';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 export default function App() {
   const [isOriginalCardOpen, setIsOriginalCardOpen] = useState(false);
@@ -44,6 +45,8 @@ export default function App() {
         isOpen={isOriginalCardOpen}
         onClose={() => setIsOriginalCardOpen(false)}
       />
+      {/* Floating WhatsApp Action Button */}
+      <FloatingWhatsApp />
     </div>
   );
 }
