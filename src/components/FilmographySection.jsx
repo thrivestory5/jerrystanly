@@ -176,14 +176,31 @@ export default function FilmographySection() {
                     </div>
 
                     {/* Title */}
-                    <h3 className="font-serif text-lg font-bold text-white group-hover:text-gold-light transition-colors line-clamp-1 mb-1">
-                      {film.title}
-                    </h3>
+                    <div className="flex items-baseline justify-between gap-2 mb-1">
+                      <h3 className="font-serif text-lg font-bold text-white group-hover:text-gold-light transition-colors line-clamp-1">
+                        {film.title}
+                      </h3>
+                      {film.year && (
+                        <span className="text-[11px] font-mono text-gray-500 shrink-0">
+                          {film.year}
+                        </span>
+                      )}
+                    </div>
 
                     {/* Genre / Highlight */}
-                    <p className="text-xs text-gold-400/90 font-medium line-clamp-1 mb-3">
+                    <p className="text-xs text-gold-400/90 font-medium line-clamp-1 mb-2">
                       {film.highlight}
                     </p>
+
+                    {/* External DB Indicator Badge if exists */}
+                    {film.externalRef && (
+                      <div className="mb-2">
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-mono bg-gold-primary/10 border border-gold-primary/25 text-gold-light">
+                          <Sparkles size={10} />
+                          {film.externalRef}
+                        </span>
+                      </div>
+                    )}
 
                     {/* Production Scope Teaser */}
                     <p className="text-xs text-gray-400 font-light line-clamp-2 leading-relaxed">
@@ -318,6 +335,15 @@ export default function FilmographySection() {
                 <span className="text-gray-400 uppercase tracking-wider text-[10px]">Cakupan & Kompleksitas Lapangan</span>
                 <p className="text-gold-light leading-relaxed">{selectedFilm.scope}</p>
               </div>
+
+              {selectedFilm.externalRef && (
+                <div className="p-3.5 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-between text-blue-300">
+                  <span className="text-[11px]">Verifikasi Basis Data:</span>
+                  <span className="font-bold font-mono text-[11px] flex items-center gap-1.5">
+                    {selectedFilm.externalRef} <ExternalLink size={12} />
+                  </span>
+                </div>
+              )}
 
               <div className="p-3.5 rounded-xl bg-gold-primary/10 border border-gold-primary/30 flex items-center justify-between text-gold-300">
                 <span>Afiliasi Produksi:</span>
