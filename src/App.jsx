@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection';
 import CertificationsSection from './components/CertificationsSection';
 import SkillsMatrix from './components/SkillsMatrix';
 import FilmographySection from './components/FilmographySection';
+import GeoCoverageSection from './components/GeoCoverageSection';
 import WorkflowSection from './components/WorkflowSection';
 import BudgetSimulator from './components/BudgetSimulator';
 import ContactSection from './components/ContactSection';
@@ -40,6 +41,7 @@ export default function App() {
         <AboutSection />
         <SkillsMatrix />
         <FilmographySection />
+        <GeoCoverageSection />
         <WorkflowSection />
         <BudgetSimulator />
         <ContactSection />

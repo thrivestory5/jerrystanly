@@ -39,6 +39,7 @@ export default function Footer({ onOpenOriginalCard }) {
             <a href="#certifications" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Sertifikasi</a>
             <a href="#skills" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Keahlian</a>
             <a href="#filmography" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Filmografi</a>
+            <a href="#coverage" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Wilayah</a>
             <a href="#workflow" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Pipeline</a>
             <a href="#simulator" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Kalkulator</a>
             <button 

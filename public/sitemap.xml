@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://jerrydjohar.vercel.app/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://jerrydjohar.vercel.app/jerry-portrait.png</image:loc>
+      <image:title>Jerry Stanly Djohar — Line Producer &amp; Manajer Produksi BNSP</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://jerrydjohar.vercel.app/sertifikat-bnsp-depan.jpg</image:loc>
+      <image:title>Sertifikat Kompetensi Manajer Produksi BNSP Jerry Stanly Djohar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://jerrydjohar.vercel.app/kta-kft-lisensi.jpg</image:loc>
+      <image:title>Lisensi Profesi KFT Line Produser Jerry Stanly Djohar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://jerrydjohar.vercel.app/sertifikat-kemenkebudayaan.jpg</image:loc>
+      <image:title>Piagam Penghargaan Kementerian Kebudayaan Republik Indonesia</image:title>
+    </image:image>
+  </url>
+</urlset>

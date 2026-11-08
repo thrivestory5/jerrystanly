@@ -42,6 +42,7 @@ export default function Navbar({ onOpenOriginalCard }) {
     { label: "Sertifikasi", href: "#certifications" },
     { label: "Keahlian", href: "#skills" },
     { label: "Filmografi", href: "#filmography" },
+    { label: "Wilayah", href: "#coverage" },
     { label: "Pipeline", href: "#workflow" },
     { label: "Kalkulator", href: "#simulator" },
     { label: "Kontak", href: "#contact" },
