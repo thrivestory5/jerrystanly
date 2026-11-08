@@ -135,6 +135,9 @@ export default function GeoCoverageSection() {
               return (
                 <div
                   key={item.id}
+                  onMouseEnter={() => {
+                    setSelectedRegion(item);
+                  }}
                   onClick={() => {
                     playTactileClick();
                     setSelectedRegion(item);

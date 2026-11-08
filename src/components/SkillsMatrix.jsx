@@ -117,6 +117,9 @@ export default function SkillsMatrix() {
                   key={skill.name}
                   ref={(el) => (skillRefs.current[skill.name] = el)}
                   id={`skill-item-${idx}`}
+                  onMouseEnter={() => {
+                    setSelectedSkill(skill);
+                  }}
                   onClick={() => {
                     playTactileClick();
                     setSelectedSkill(skill);
