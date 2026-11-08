@@ -138,16 +138,116 @@ export const PROFILE = {
   ],
 
   skills: [
-    { name: "Manajemen Produksi Film", level: 98, category: "Core", desc: "End-to-end production pipeline governance dari script breakdown hingga master delivery sesuai standar BNSP." },
-    { name: "Budgeting & Cost Control", level: 96, category: "Finance", desc: "Auditing pengeluaran, negosiasi rate kru/alat, serta pencegahan cost-overrun secara sistematis." },
-    { name: "Scheduling Produksi (Movie Magic / Excel)", level: 95, category: "Operations", desc: "Breakdown scene, DOOD cast, stripboard scheduling dengan toleransi contingency tinggi." },
-    { name: "Koordinasi Kru & Talent Management", level: 97, category: "Leadership", desc: "Harmonisasi ratusan kru lintas divisi dan diplomasi penanganan talenta A-list nasional." },
-    { name: "Logistik & Mobilisasi Skala Besar", level: 94, category: "Logistics", desc: "Perpindahan armada syuting luar kota/pulau, manajemen basecamp, unit kendaraan & konsumsi." },
-    { name: "Perizinan Lokasi & Government Relations", level: 92, category: "Legal & Permits", desc: "Izin aparat kepolisian, pemda, dinas pariwisata, cagar budaya, dan kearifan lokal masyarakat." },
-    { name: "Vendor & Rental House Management", level: 95, category: "Partnership", desc: "Jaringan relasi erat dengan penyedia rental kamera (Arri/RED/Sony), lighting, drone, dan sound stage." },
-    { name: "Risk Management & Crisis Contingency", level: 93, category: "Safety", desc: "Antisipasi cuaca, keselamatan kerja K3, klaim asuransi produksi, dan mitigasi downtime." },
-    { name: "Production Planning & Pre-to-Post Pipeline", level: 96, category: "Strategy", desc: "Sinkronisasi pra-syuting dengan tim post-production (VFX, sound designer, colorist)." },
-    { name: "Executive Team Leadership", level: 98, category: "Leadership", desc: "Membangun atmosfer kerja set yang disiplin, humanis, bersemangat, dan berorientasi hasil." }
+    { 
+      name: "Manajemen Produksi Film", 
+      level: 98, 
+      category: "Core", 
+      desc: "End-to-end production pipeline governance dari script breakdown hingga master delivery sesuai standar BNSP.",
+      standards: [
+        "Pencegahan deviasi anggaran dengan real-time cost tracking harian.",
+        "SOP keselamatan kerja & asuransi komprehensif bagi seluruh kru dan aktor.",
+        "Sinergi harmonis dengan sutradara untuk menjaga integritas estetika karya."
+      ]
+    },
+    { 
+      name: "Budgeting & Cost Control", 
+      level: 96, 
+      category: "Finance", 
+      desc: "Auditing pengeluaran, negosiasi rate kru/alat, serta pencegahan cost-overrun secara sistematis.",
+      standards: [
+        "Audit ketat cash flow mingguan dan pencegahan kebocoran below-the-line.",
+        "Negosiasi komparatif multi-vendor peralatan kamera, lighting & grip.",
+        "Penyediaan cadangan kontingensi 10% terproteksi untuk situasi darurat."
+      ]
+    },
+    { 
+      name: "Scheduling Produksi (Movie Magic / Excel)", 
+      level: 95, 
+      category: "Operations", 
+      desc: "Breakdown scene, DOOD cast, stripboard scheduling dengan toleransi contingency tinggi.",
+      standards: [
+        "Penyusunan Day-Out-of-Days (DOOD) presisi mengunci hari kerja aktor A-List.",
+        "Breakdown scene berdasarkan efisiensi perpindahan set dan pencahayaan alami.",
+        "Distribusi Daily Call Sheet 24 jam sebelum call time dengan skenario alternatif."
+      ]
+    },
+    { 
+      name: "Koordinasi Kru & Talent Management", 
+      level: 97, 
+      category: "Leadership", 
+      desc: "Harmonisasi ratusan kru lintas divisi dan diplomasi penanganan talenta A-list nasional.",
+      standards: [
+        "Penyelarasan Head of Departments (DoP, Art, Sound, Wardrobe) dalam satu visi.",
+        "Penanganan diplomatis jadwal dan kenyamanan aktor bintang di basecamp.",
+        "Penerapan etika profesional dan tata krama kerja set sesuai kode etik KFT."
+      ]
+    },
+    { 
+      name: "Logistik & Mobilisasi Skala Besar", 
+      level: 94, 
+      category: "Logistics", 
+      desc: "Perpindahan armada syuting luar kota/pulau, manajemen basecamp, unit kendaraan & konsumsi.",
+      standards: [
+        "Mobilisasi armada truk logistik, genset diesel, dan kendaraan kru antar kota/pulau.",
+        "Penyediaan katering bergizi dan higienis tepat waktu untuk 100+ personel.",
+        "Manajemen unit base camp terstruktur dekat dengan radius lokasi syuting."
+      ]
+    },
+    { 
+      name: "Perizinan Lokasi & Government Relations", 
+      level: 92, 
+      category: "Legal & Permits", 
+      desc: "Izin aparat kepolisian, pemda, dinas pariwisata, cagar budaya, dan kearifan lokal masyarakat.",
+      standards: [
+        "Pengurusan izin resmi Kepolisian, Pemda, Koramil, hingga Dinas Pariwisata.",
+        "Pendekatan humanis kearifan lokal masyarakat adat dan pengamanan lingkungan.",
+        "Mitigasi legalitas lokasi cagar budaya, fasilitas publik, dan jalan tol nasional."
+      ]
+    },
+    { 
+      name: "Vendor & Rental House Management", 
+      level: 95, 
+      category: "Partnership", 
+      desc: "Jaringan relasi erat dengan penyedia rental kamera (Arri/RED/Sony), lighting, drone, dan sound stage.",
+      standards: [
+        "Kemitraan erat rental house terkemuka untuk paket Arri Alexa LF, RED, dan Sony Cine.",
+        "Inspeksi uji alat (camera test & lens prep) ketat sebelum mobilisasi lapangan.",
+        "Garansi penggantian unit cadangan instan (backup equipment) jika terjadi kendala teknis."
+      ]
+    },
+    { 
+      name: "Risk Management & Crisis Contingency", 
+      level: 93, 
+      category: "Safety", 
+      desc: "Antisipasi cuaca, keselamatan kerja K3, klaim asuransi produksi, dan mitigasi downtime.",
+      standards: [
+        "Penerapan prosedur K3 perfilman (SKKNI BNSP) menghadapi cuaca ekstrem & set malam.",
+        "Protokol siaga medis, ambulance standby, dan koordinasi stunt coordinator bersertifikat.",
+        "Proteksi polis asuransi komprehensif bagi seluruh aset peralatan dan personel kru."
+      ]
+    },
+    { 
+      name: "Production Planning & Pre-to-Post Pipeline", 
+      level: 96, 
+      category: "Strategy", 
+      desc: "Sinkronisasi pra-syuting dengan tim post-production (VFX, sound designer, colorist).",
+      standards: [
+        "Sinkronisasi pra-syuting dengan Post-Production Supervisor, Colorist, dan Sound Designer.",
+        "Manajemen data DIT (Digital Intermediate Technician) dengan backup double-storage harian.",
+        "Penyusunan jadwal editing offline, VFX, foley, scoring, hingga mastering DCP bioskop."
+      ]
+    },
+    { 
+      name: "Executive Team Leadership", 
+      level: 98, 
+      category: "Leadership", 
+      desc: "Membangun atmosfer kerja set yang disiplin, humanis, bersemangat, dan berorientasi hasil.",
+      standards: [
+        "Kepemimpinan humanis & tegas dalam mengorkestrasi ratusan kru lintas departemen.",
+        "Resolusi konflik cepat di set tanpa menghentikan jadwal produksi (zero downtime).",
+        "Menjaga moral, stamina, dan keselamatan seluruh tim dalam ritme kerja intensif puluhan hari."
+      ]
+    }
   ],
 
   filmography: [
