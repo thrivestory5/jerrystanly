@@ -44,7 +44,7 @@ export default function Navbar({ onOpenOriginalCard }) {
     { label: "Filmografi", href: "#filmography" },
     { label: "Wilayah", href: "#coverage" },
     { label: "Pipeline", href: "#workflow" },
-    { label: "Kalkulator", href: "#simulator" },
+    { label: "FAQ", href: "#faq" },
     { label: "Kontak", href: "#contact" },
   ];
 

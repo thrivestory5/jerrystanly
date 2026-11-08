@@ -57,7 +57,7 @@ export default function FilmographySection() {
           </h2>
           
           <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-            Arsip lengkap 34+ karya produksi sinematik, serial drama primetime, FTV rating puncak, dan iklan komersial nasional yang dipimpin oleh Jerry Stanly Djohar.
+            Arsip lengkap 35+ karya produksi sinematik, serial drama primetime, FTV rating puncak, dan iklan komersial nasional yang dipimpin oleh Jerry Stanly Djohar (dikenal juga sebagai Jerry Djohar / Jerry Stanly).
           </p>
         </div>
 

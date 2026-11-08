@@ -9,6 +9,7 @@ import FilmographySection from './components/FilmographySection';
 import GeoCoverageSection from './components/GeoCoverageSection';
 import WorkflowSection from './components/WorkflowSection';
 import BudgetSimulator from './components/BudgetSimulator';
+import FaqSection from './components/FaqSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import OriginalCardModal from './components/OriginalCardModal';
@@ -44,6 +45,7 @@ export default function App() {
         <GeoCoverageSection />
         <WorkflowSection />
         <BudgetSimulator />
+        <FaqSection />
         <ContactSection />
       </main>
 

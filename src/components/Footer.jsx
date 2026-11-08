@@ -27,8 +27,8 @@ export default function Footer({ onOpenOriginalCard }) {
               <span className="font-serif text-xl font-bold tracking-[0.2em] text-white">
                 JERRY STANLY DJOHAR
               </span>
-              <p className="text-xs font-mono tracking-[0.25em] text-gold-400 uppercase mt-0.5">
-                Executive Line Producer • Indonesian Cinema
+              <p className="text-xs font-mono tracking-[0.15em] text-gold-400 mt-0.5">
+                (Jerry Djohar • Jerry Stanly) — Line Producer & Manajer Produksi BNSP
               </p>
             </div>
           </div>
@@ -41,7 +41,8 @@ export default function Footer({ onOpenOriginalCard }) {
             <a href="#filmography" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Filmografi</a>
             <a href="#coverage" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Wilayah</a>
             <a href="#workflow" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Pipeline</a>
-            <a href="#simulator" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Kalkulator</a>
+            <a href="#faq" onClick={playTactileClick} className="hover:text-gold-light transition-colors">FAQ</a>
+            <a href="#contact" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Kontak</a>
             <button 
               onClick={() => { playTactileClick(); onOpenOriginalCard(); }} 
               className="text-gold-primary hover:text-gold-light transition-colors"

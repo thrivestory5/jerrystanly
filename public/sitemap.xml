@@ -8,19 +8,40 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://jerrydjohar.vercel.app/jerry-portrait.png</image:loc>
-      <image:title>Jerry Stanly Djohar — Line Producer &amp; Manajer Produksi BNSP</image:title>
+      <image:title>Jerry Stanly Djohar (Jerry Djohar / Jerry Stanly) — Line Producer &amp; Manajer Produksi BNSP</image:title>
+      <image:caption>Foto Resmi Jerry Stanly Djohar, Line Producer dan Manajer Produksi Film Indonesia berlisensi KFT dan BNSP.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jerrydjohar.vercel.app/sertifikat-bnsp-depan.jpg</image:loc>
-      <image:title>Sertifikat Kompetensi Manajer Produksi BNSP Jerry Stanly Djohar</image:title>
+      <image:title>Sertifikat Kompetensi Manajer Produksi BNSP — Jerry Stanly Djohar</image:title>
+      <image:caption>Sertifikat Resmi Badan Nasional Sertifikasi Profesi No. 90003 2654 5 0000139 2021.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jerrydjohar.vercel.app/kta-kft-lisensi.jpg</image:loc>
-      <image:title>Lisensi Profesi KFT Line Produser Jerry Stanly Djohar</image:title>
+      <image:title>Lisensi Profesi KFT Line Produser No. 2735/B/15/XV/2029 — Jerry Stanly Djohar</image:title>
+      <image:caption>Lisensi Resmi Persatuan Karyawan Film dan Televisi Indonesia.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jerrydjohar.vercel.app/sertifikat-kemenkebudayaan.jpg</image:loc>
-      <image:title>Piagam Penghargaan Kementerian Kebudayaan Republik Indonesia</image:title>
+      <image:title>Piagam Penghargaan Kementerian Kebudayaan Republik Indonesia — Jerry Djohar</image:title>
+      <image:caption>Penghargaan Perumusan Panduan Perfilman Inklusif Direktorat Film Musik dan Seni.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://jerrydjohar.vercel.app/cakrawangsa-logo.png</image:loc>
+      <image:title>PT Cakrawangsa Cinema Production Logo</image:title>
+      <image:caption>Rumah Produksi Jerry Stanly Djohar di Gedung PPHUI Kuningan Jakarta.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jerrydjohar.vercel.app/llms.txt</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jerrydjohar.vercel.app/llms-full.txt</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

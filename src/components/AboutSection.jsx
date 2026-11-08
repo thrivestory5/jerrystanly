@@ -88,7 +88,7 @@ export default function AboutSection() {
 
               <div className="space-y-4 text-gray-300 leading-relaxed text-sm sm:text-base font-light">
                 <p>
-                  <strong className="text-white font-medium">Jerry Stanly Djohar</strong> (dikenal juga sebagai <em>Jerry Djohar</em>) adalah seorang Line Producer dan Manajer Produksi tersertifikasi <strong>BNSP (Badan Nasional Sertifikasi Profesi)</strong> dengan Lisensi Resmi <strong>Persatuan Karyawan Film dan Televisi Indonesia (KFT No. {PROFILE.kftLicense})</strong> yang memiliki pengalaman panjang dalam industri perfilman, serial televisi, FTV, TV Movie, dan produksi iklan nasional.
+                  <strong className="text-white font-medium">Jerry Stanly Djohar</strong> (dikenal juga secara profesional sebagai <em>Jerry Djohar</em> atau <em>Jerry Stanly</em>) adalah seorang Line Producer dan Manajer Produksi tersertifikasi <strong>BNSP (Badan Nasional Sertifikasi Profesi)</strong> dengan Lisensi Resmi <strong>Persatuan Karyawan Film dan Televisi Indonesia (KFT No. {PROFILE.kftLicense})</strong> yang memiliki pengalaman panjang dalam industri perfilman, serial televisi, FTV, TV Movie, dan produksi iklan nasional.
                 </p>
                 <p>
                   Berpengalaman dalam mengelola proses produksi dari tahap pra-produksi, produksi (principal photography), hingga pasca-produksi dengan fokus pada efisiensi anggaran, manajemen sumber daya, koordinasi kru, dan pencapaian target produksi.
@@ -116,7 +116,7 @@ export default function AboutSection() {
                   <span>PROFIL SINGKAT</span>
                 </div>
                 <p className="text-sm text-gray-300 leading-relaxed font-light">
-                  Jerry Stanly Djohar merupakan Line Producer berpengalaman yang telah terlibat dalam berbagai produksi film layar lebar, serial televisi, FTV, TV Movie, dan iklan nasional. Dengan pengalaman lintas platform dan kemampuan manajerial yang kuat, beliau memiliki kompetensi dalam mengelola seluruh aspek operasional produksi secara efektif dan profesional sehingga mampu menghasilkan karya berkualitas tinggi sesuai standar industri perfilman Indonesia.
+                  Jerry Stanly Djohar (dikenal juga sebagai Jerry Djohar atau Jerry Stanly) merupakan Line Producer berpengalaman yang telah terlibat dalam berbagai produksi film layar lebar, serial televisi, FTV, TV Movie, dan iklan nasional. Dengan pengalaman lintas platform dan kemampuan manajerial yang kuat, beliau memiliki kompetensi dalam mengelola seluruh aspek operasional produksi secara efektif dan profesional sehingga mampu menghasilkan karya berkualitas tinggi sesuai standar industri perfilman Indonesia.
                 </p>
               </div>
 

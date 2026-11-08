@@ -129,6 +129,20 @@ export default function Hero({ onOpenOriginalCard }) {
                   MANAJER PRODUKSI TERSERTIFIKASI BNSP
                 </span>
               </div>
+
+              {/* Entity Disambiguation for SEO, GEO & AI Search */}
+              <div className="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs font-mono">
+                <span className="text-gray-400">Dikenal juga sebagai:</span>
+                <span className="px-2.5 py-0.5 rounded-full bg-gold-primary/10 border border-gold-primary/30 text-gold-light font-semibold">
+                  Jerry Djohar
+                </span>
+                <span className="text-gray-600">•</span>
+                <span className="px-2.5 py-0.5 rounded-full bg-gold-primary/10 border border-gold-primary/30 text-gold-light font-semibold">
+                  Jerry Stanly
+                </span>
+                <span className="text-gray-600">•</span>
+                <span className="text-gray-400">Jerry S Djohar</span>
+              </div>
             </div>
 
             {/* Tagline & Core Statement */}

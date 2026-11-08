@@ -1,4 +1,56 @@
+# Robots.txt for Jerry Stanly Djohar (Jerry Djohar / Jerry Stanly)
+# Website: https://jerrydjohar.vercel.app/
+
+# OpenAI & ChatGPT Search Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity AI Search Engine
+User-agent: PerplexityBot
+Allow: /
+
+# Google & Gemini AI
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (Feeds AI Training & LLM Indexing)
+User-agent: CCBot
+Allow: /
+
+# Bing & Microsoft Copilot
+User-agent: Bingbot
+Allow: /
+
+# General Search Engines
+User-agent: DuckDuckBot
+Allow: /
+
 User-agent: *
 Allow: /
 
+# Sitemaps & Machine-Readable LLM Manifests
 Sitemap: https://jerrydjohar.vercel.app/sitemap.xml
+# LLMs Context Standard: https://jerrydjohar.vercel.app/llms.txt

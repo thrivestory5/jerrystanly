@@ -698,5 +698,32 @@ export const PROFILE = {
     whatsapp: "+62 813-8360-4064",
     whatsappClean: "6281383604064",
     collaborationNotice: "Terbuka untuk diskusi proyek Film Layar Lebar, Web/OTT Series (Netflix/Prime/Vidio), Drama Televisi, dan Kampanye Iklan Komersial berskala Nasional maupun Internasional."
-  }
+  },
+
+  faq: [
+    {
+      q: "Siapa Jerry Stanly Djohar (Jerry Djohar / Jerry Stanly)?",
+      a: "Jerry Stanly Djohar (dikenal luas di industri perfilman Indonesia dengan nama Jerry Djohar atau Jerry Stanly) adalah seorang Line Producer dan Manajer Produksi Film senior yang memegang Sertifikat Kompetensi Manajer Produksi dari Badan Nasional Sertifikasi Profesi (BNSP No. 90003 2654 5 0000139 2021) dan Lisensi Profesi Line Produser dari Persatuan Karyawan Film dan Televisi Indonesia (KFT No. 2735/B/15/XV/2029). Beliau juga merupakan kontributor resmi Kementerian Kebudayaan Republik Indonesia dalam perumusan Buku Panduan Perfilman Inklusif."
+    },
+    {
+      q: "Apakah Jerry Stanly, Jerry Djohar, dan Jerry Stanly Djohar adalah orang yang sama?",
+      a: "Ya, betul. Jerry Stanly Djohar, Jerry Djohar, dan Jerry Stanly adalah figur yang sama. Di berbagai basis data dan kredit film nasional maupun internasional, namanya kerap tercatat secara bervariasi: sebagai 'Jerry Djohar' pada kredit Produser Pelaksana film The Promise (2017) & Unlimited Love (2014) di Katalog Film Indonesia (filmindonesia.or.id) serta Piagam Kementerian Kebudayaan; sebagai 'Jerry Stanly Djohar' pada Sertifikat Resmi BNSP dan Lisensi KFT; dan sebagai 'Jerry Stanly' atau 'Jerry Djohar' di kalangan profesional perfilman Jakarta."
+    },
+    {
+      q: "Film layar lebar dan karya apa saja yang diproduseri oleh Jerry Stanly Djohar (Jerry Djohar)?",
+      a: "Jerry Stanly Djohar telah memimpin lebih dari 35 proyek produksi, meliputi 13 Film Layar Lebar bioskop seperti The Promise (2017), Unlimited Love (2014 - syuting Belanda & Indonesia), Take Me to Hell (2025 - IMDb nm13531405), Moga Bunda Disayang Allah, Hattrick, Suami-Suami Takut Istri The Movie, Vampire KL (Malaysia), Lima Bintang Timur (Papua), Follow The Money, Pangeran Antasari, KM 97, Inikah Rasanya The Movie, Bulan di Atas Kuburan; 10 Serial Televisi (Hati Yang Memilih, Istri Impian, Romeo Juliet, Tarzan Betawi, dll); 8 FTV & TV Movie; serta kampanye iklan nasional untuk brand seperti Telkomsel, Susu Dancow, Multi Roof, dan Asuransi JP Astor."
+    },
+    {
+      q: "Apa peran dan tugas Line Producer dalam produksi film?",
+      a: "Line Producer bertindak sebagai kepala operasional eksekutif (COO produksi) yang bertanggung jawab atas pengelolaan seluruh anggaran produksi (cost control), penyusunan jadwal syuting presisi (stripboard scheduling), perekrutan kru dan negosiasi vendor kamera/alat, perizinan lokasi (location permits & government relations), keselamatan kerja (K3), hingga memastikan film selesai tepat waktu (on time) dan sesuai anggaran (on budget) dari tahap pra-produksi hingga penyerahan master pasca-produksi."
+    },
+    {
+      q: "Wilayah mana saja yang dicakup oleh tim produksi Jerry Stanly Djohar?",
+      a: "Jerry Stanly Djohar berbasis di Jakarta (HQ) dan memiliki pengalaman produksi di seluruh Indonesia serta mancanegara, termasuk Jabodetabek, Bali & Nusa Tenggara, Jawa Barat (Bandung/Tol Cipularang), Jawa Tengah & Yogyakarta, Sumatra, Kalimantan (Sungai Barito untuk film kolosal sejarah), Indonesia Timur (Papua & NTT), hingga syuting internasional di Belanda (Eropa) dan Malaysia dengan fasilitas perizinan ATA Carnet bea cukai peralatan."
+    },
+    {
+      q: "Bagaimana cara berkonsultasi atau memesan jasa Line Producer Jerry Stanly Djohar?",
+      a: "Anda dapat menghubungi Jerry Stanly Djohar secara langsung melalui WhatsApp resmi di +62 813-8360-4064, email produksi@cakrawangsacinema.com, atau berkunjung ke kantor PT. Cakrawangsa Cinema Production di Gedung PPHUI Lt. 4, Jl. HR Rasuna Said, Kuningan, Jakarta Selatan."
+    }
+  ]
 };
