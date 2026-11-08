@@ -39,6 +39,7 @@ export default function Navbar({ onOpenOriginalCard }) {
 
   const navLinks = [
     { label: "Profil", href: "#about" },
+    { label: "Sertifikasi", href: "#certifications" },
     { label: "Keahlian", href: "#skills" },
     { label: "Filmografi", href: "#filmography" },
     { label: "Pipeline", href: "#workflow" },
@@ -127,7 +128,7 @@ export default function Navbar({ onOpenOriginalCard }) {
             className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-full border border-gold-primary/30 bg-gold-primary/10 text-gold-300 hover:bg-gold-primary/20 hover:border-gold-primary transition-all font-mono"
           >
             <FileText size={14} />
-            <span>Dokumen Asli</span>
+            <span>Sertifikat & Dokumen</span>
           </button>
 
           {/* Contact Direct CTA */}

@@ -88,13 +88,13 @@ export default function AboutSection() {
 
               <div className="space-y-4 text-gray-300 leading-relaxed text-sm sm:text-base font-light">
                 <p>
-                  <strong className="text-white font-medium">Jerry Stanly Djohar</strong> adalah seorang Line Producer yang memiliki pengalaman panjang dalam industri perfilman, serial televisi, FTV, TV Movie, dan produksi iklan nasional.
+                  <strong className="text-white font-medium">Jerry Stanly Djohar</strong> (dikenal juga sebagai <em>Jerry Djohar</em>) adalah seorang Line Producer dan Manajer Produksi tersertifikasi <strong>BNSP (Badan Nasional Sertifikasi Profesi)</strong> dengan Lisensi Resmi <strong>Persatuan Karyawan Film dan Televisi Indonesia (KFT No. {PROFILE.kftLicense})</strong> yang memiliki pengalaman panjang dalam industri perfilman, serial televisi, FTV, TV Movie, dan produksi iklan nasional.
                 </p>
                 <p>
-                  Berpengalaman dalam mengelola proses produksi dari tahap pra-produksi, produksi, hingga pasca-produksi dengan fokus pada efisiensi anggaran, manajemen sumber daya, koordinasi kru, dan pencapaian target produksi.
+                  Berpengalaman dalam mengelola proses produksi dari tahap pra-produksi, produksi (principal photography), hingga pasca-produksi dengan fokus pada efisiensi anggaran, manajemen sumber daya, koordinasi kru, dan pencapaian target produksi.
                 </p>
                 <p>
-                  Dengan rekam jejak yang mencakup berbagai proyek layar lebar, serial televisi, FTV, dan iklan nasional, Jerry dikenal memiliki kemampuan kuat dalam pengelolaan produksi skala besar maupun menengah serta memastikan setiap proyek berjalan tepat waktu dan sesuai standar industri.
+                  Dengan rekam jejak yang mencakup berbagai proyek layar lebar blockbuster, serial televisi, FTV, iklan nasional, hingga kontribusi dalam <strong>Perumusan Buku Panduan Perfilman Inklusif bersama Kementerian Kebudayaan Republik Indonesia</strong>, Jerry dikenal memiliki kemampuan kuat dalam pengelolaan produksi skala besar maupun menengah serta memastikan setiap proyek berjalan tepat waktu dan sesuai standar industri.
                 </p>
               </div>
 

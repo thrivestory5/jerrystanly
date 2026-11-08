@@ -1,5 +1,5 @@
 import React from 'react';
-import { Film, Clapperboard, Award, ShieldCheck, ArrowDown, ChevronRight, FileCheck } from 'lucide-react';
+import { Film, Clapperboard, Award, ShieldCheck, ArrowDown, ChevronRight, FileCheck, ExternalLink, BookmarkCheck } from 'lucide-react';
 import { PROFILE } from '../data/profileData';
 import { playTactileClick } from '../utils/audio';
 
@@ -16,14 +16,19 @@ export default function Hero({ onOpenOriginalCard }) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         
-        {/* Top Production Badge */}
-        <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold-primary/30 bg-gold-primary/5 text-gold-primary text-xs uppercase tracking-[0.25em] font-mono">
-            <span className="w-2 h-2 rounded-full bg-gold-primary animate-ping" />
-            <span>Official Profile • Indonesian Cinema Executive</span>
+        {/* Top Badges: BNSP, KFT, Kemenkebudayaan */}
+        <div className="flex flex-wrap items-center justify-center gap-2.5 mb-8">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 text-xs font-mono">
+            <ShieldCheck size={14} className="text-blue-400" />
+            <span>BNSP Certified Manajer Produksi</span>
           </div>
-          <div className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-white/5 text-gray-300 text-xs font-mono">
-            <span>PT. CAKRAWANGSA CINEMA PRODUCTION</span>
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-red-500/40 bg-red-500/10 text-red-300 text-xs font-mono">
+            <BookmarkCheck size={14} className="text-red-400" />
+            <span>Lisensi KFT No. {PROFILE.kftLicense}</span>
+          </div>
+          <div className="hidden sm:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-amber-500/40 bg-amber-500/10 text-amber-300 text-xs font-mono">
+            <Award size={14} className="text-amber-400" />
+            <span>Kementerian Kebudayaan RI Contributor</span>
           </div>
         </div>
 
@@ -82,9 +87,9 @@ export default function Hero({ onOpenOriginalCard }) {
                 <div className="p-3 bg-[#0a0a0e] border-t border-white/5 flex items-center justify-between text-[11px] text-gray-400 font-mono">
                   <span className="flex items-center gap-1.5 text-emerald-400">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                    STATUS: ACTIVE PRODUCTION
+                    KFT & BNSP VERIFIED
                   </span>
-                  <span>ID: JSD-2026</span>
+                  <span>ID: {PROFILE.kftLicense}</span>
                 </div>
               </div>
 
@@ -97,7 +102,7 @@ export default function Hero({ onOpenOriginalCard }) {
                 className="absolute -bottom-4 -right-2 sm:right-2 z-20 px-4 py-2 rounded-xl bg-gold-primary text-black font-semibold text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(212,175,55,0.4)] flex items-center gap-2 hover:bg-gold-light transition-all transform hover:scale-105"
               >
                 <FileCheck size={14} />
-                <span>Kartu Kredensial Asli</span>
+                <span>Lihat Sertifikat & Lisensi</span>
               </button>
             </div>
           </div>
@@ -121,7 +126,7 @@ export default function Hero({ onOpenOriginalCard }) {
                 </span>
                 <span className="hidden sm:inline text-gray-600">•</span>
                 <span className="text-xs sm:text-sm text-gray-400 font-mono tracking-wider">
-                  FILM • TELEVISI • FTV • IKLAN NASIONAL
+                  MANAJER PRODUKSI TERSERTIFIKASI BNSP
                 </span>
               </div>
             </div>
@@ -129,7 +134,7 @@ export default function Hero({ onOpenOriginalCard }) {
             {/* Tagline & Core Statement */}
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light">
               Mengorkestrasi visi artistik sutradara dan produser eksekutif ke dalam eksekusi operasional yang presisi: 
-              <strong className="text-gold-light font-medium"> efisiensi anggaran ketat, jadwal syuting disiplin, keselamatan kru, </strong> 
+              <strong className="text-gold-light font-medium"> efisiensi anggaran ketat, jadwal syuting disiplin, keselamatan kerja K3, </strong> 
               dan pencapaian mutu sinematik standar industri perfilman Indonesia.
             </p>
 
@@ -140,32 +145,67 @@ export default function Hero({ onOpenOriginalCard }) {
                 onClick={playTactileClick}
                 className="px-6 py-3.5 rounded-full bg-gradient-to-r from-gold-primary via-gold-300 to-gold-primary text-black font-bold text-xs uppercase tracking-[0.2em] shadow-[0_0_25px_rgba(212,175,55,0.35)] hover:shadow-[0_0_35px_rgba(212,175,55,0.6)] transition-all transform hover:-translate-y-0.5"
               >
-                Jelajahi 34+ Filmografi
+                Jelajahi 35+ Filmografi
               </a>
 
               <a
-                href="#simulator"
+                href="#certifications"
                 onClick={playTactileClick}
                 className="px-6 py-3.5 rounded-full border border-gold-primary/30 bg-gold-primary/5 hover:bg-gold-primary/15 text-gold-200 font-semibold text-xs uppercase tracking-[0.2em] transition-all flex items-center gap-2"
               >
-                <span>Simulasi Produksi</span>
+                <span>Lihat Sertifikasi BNSP & KFT</span>
                 <ChevronRight size={14} className="text-gold-primary" />
               </a>
             </div>
 
+            {/* External Database Quick Links (IMDb, KFT, FilmIndonesia) */}
+            <div className="pt-3 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs font-mono">
+              <span className="text-gray-500 uppercase tracking-wider text-[10px]">Basis Data Resmi:</span>
+              <a
+                href="https://www.imdb.com/name/nm13531405/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={playTactileClick}
+                className="px-3 py-1 rounded-lg bg-white/5 hover:bg-gold-primary/20 text-gray-300 hover:text-gold-light border border-white/10 flex items-center gap-1.5 transition-colors"
+              >
+                <span>IMDb (nm13531405)</span>
+                <ExternalLink size={11} />
+              </a>
+              <a
+                href="https://www.kftindonesia.org/jerry-stanley-djohar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={playTactileClick}
+                className="px-3 py-1 rounded-lg bg-white/5 hover:bg-gold-primary/20 text-gray-300 hover:text-gold-light border border-white/10 flex items-center gap-1.5 transition-colors"
+              >
+                <span>KFT Film Database</span>
+                <ExternalLink size={11} />
+              </a>
+              <a
+                href="https://www.filmindonesia.or.id/nama/nmp543cc52e79c5e"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={playTactileClick}
+                className="px-3 py-1 rounded-lg bg-white/5 hover:bg-gold-primary/20 text-gray-300 hover:text-gold-light border border-white/10 flex items-center gap-1.5 transition-colors"
+              >
+                <span>FilmIndonesia.or.id</span>
+                <ExternalLink size={11} />
+              </a>
+            </div>
+
             {/* Quick Responsibilities Pillars */}
-            <div className="pt-4 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div className="pt-3 border-t border-white/10 grid grid-cols-2 sm:grid-cols-3 gap-3">
               <div className="p-3 rounded-xl bg-white/[0.02] border border-white/5">
-                <p className="text-gold-primary font-mono text-xs uppercase tracking-wider">Budgeting</p>
-                <p className="text-xs text-gray-400 mt-0.5">Cost Control & Zero Overbudget</p>
+                <p className="text-gold-primary font-mono text-xs uppercase tracking-wider">BNSP Certified</p>
+                <p className="text-xs text-gray-400 mt-0.5">Production Manager SKKNI</p>
               </div>
               <div className="p-3 rounded-xl bg-white/[0.02] border border-white/5">
-                <p className="text-gold-primary font-mono text-xs uppercase tracking-wider">Scheduling</p>
-                <p className="text-xs text-gray-400 mt-0.5">Master Timeline & Call Sheets</p>
+                <p className="text-gold-primary font-mono text-xs uppercase tracking-wider">KFT Lisensi</p>
+                <p className="text-xs text-gray-400 mt-0.5">Line Producer No. 2735</p>
               </div>
               <div className="p-3 rounded-xl bg-white/[0.02] border border-white/5 col-span-2 sm:col-span-1">
-                <p className="text-gold-primary font-mono text-xs uppercase tracking-wider">Logistics & Crew</p>
-                <p className="text-xs text-gray-400 mt-0.5">End-to-End Mobilization</p>
+                <p className="text-gold-primary font-mono text-xs uppercase tracking-wider">Kemendikbud / Kemenkebudayaan</p>
+                <p className="text-xs text-gray-400 mt-0.5">Perumusan Buku Inklusif</p>
               </div>
             </div>
 

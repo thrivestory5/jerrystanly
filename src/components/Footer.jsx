@@ -34,8 +34,9 @@ export default function Footer({ onOpenOriginalCard }) {
           </div>
 
           {/* Quick Links */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-xs font-mono uppercase tracking-wider text-gray-400">
+          <div className="flex flex-wrap items-center justify-center gap-5 text-xs font-mono uppercase tracking-wider text-gray-400">
             <a href="#about" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Profil</a>
+            <a href="#certifications" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Sertifikasi</a>
             <a href="#skills" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Keahlian</a>
             <a href="#filmography" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Filmografi</a>
             <a href="#workflow" onClick={playTactileClick} className="hover:text-gold-light transition-colors">Pipeline</a>
@@ -44,7 +45,7 @@ export default function Footer({ onOpenOriginalCard }) {
               onClick={() => { playTactileClick(); onOpenOriginalCard(); }} 
               className="text-gold-primary hover:text-gold-light transition-colors"
             >
-              Dokumen Asli
+              Berkas Lisensi
             </button>
           </div>
 
