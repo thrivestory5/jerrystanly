@@ -111,7 +111,6 @@ export default function SkillsMatrix() {
             {filteredSkills.map((skill, idx) => {
               const Icon = skillIcons[skill.name] || CheckCircle;
               const isSelected = selectedSkill.name === skill.name;
-              const isLeadership = skill.name === "Executive Team Leadership";
 
               return (
                 <div
@@ -125,8 +124,6 @@ export default function SkillsMatrix() {
                   className={`p-4 rounded-xl cursor-pointer transition-all border scroll-mt-32 ${
                     isSelected
                       ? 'bg-gold-primary/20 border-gold-primary shadow-[0_0_25px_rgba(212,175,55,0.3)] ring-1 ring-gold-primary/50'
-                      : isLeadership
-                      ? 'bg-[#14141c] border-gold-primary/30 hover:border-gold-primary'
                       : 'bg-[#0f0f14]/80 border-white/5 hover:border-gold-primary/40 hover:bg-white/[0.03]'
                   }`}
                 >
@@ -135,8 +132,6 @@ export default function SkillsMatrix() {
                       <div className={`w-9 h-9 rounded-lg flex items-center justify-center transition-colors ${
                         isSelected 
                           ? 'bg-gold-primary text-black' 
-                          : isLeadership
-                          ? 'bg-gold-primary/10 text-gold-light'
                           : 'bg-white/5 text-gold-300'
                       }`}>
                         <Icon size={18} />
@@ -149,11 +144,6 @@ export default function SkillsMatrix() {
                           <h4 className="font-serif text-sm sm:text-base font-bold text-white">
                             {skill.name}
                           </h4>
-                          {isLeadership && (
-                            <span className="hidden sm:inline-block px-2 py-0.5 rounded text-[9px] font-mono bg-gold-primary/20 text-gold-light uppercase tracking-wider font-semibold">
-                              Top Pillar
-                            </span>
-                          )}
                         </div>
                         <span className="text-[10px] font-mono text-gold-400 uppercase tracking-wider">
                           Kategori: {skill.category}
